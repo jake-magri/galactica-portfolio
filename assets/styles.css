@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+header {
+    background-color: green;
+    color: rgb(245, 245, 245);
+    border-bottom: 8px solid bisque;
+} 
+
+footer {
+    background-color: green;
+    color: rgb(245, 245, 245);
+    text-align: center;
+    border-bottom: 4px solid rgb(22, 22, 22);
+}
+
+ul {
+    text-align: right;
+}
+
+.form {
+    border: 3px solid #f2a679;
+    border-radius: 15px;
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 3vh;
+    padding: 8px;
+}
+
+.form-input-field {
+    display: block;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 2vh 10px 2vh 0;
+}
+
+section {
+    text-align: center;
+}
+
+.contact-me {
+    background-color: bisque;
+    padding-bottom: 10px;
+}
