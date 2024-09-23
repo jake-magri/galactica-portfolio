@@ -1,59 +1,84 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./assets/styles.css">
-        <title>Landing Page</title>
-    </head>
-
-    <body>
-        <header>
-            <nav class="nav-bar">
-                <ul>    
-                    <li class="nav-item">GitHub</li>
-                    <li class="nav-item">Portfolio</li>
-                    <li class="nav-item">Contact</li>
-                </ul>
-            </nav>
-        </header>
-        <section>
-            <h1><strong>Jake Magri</strong></h1>
-            <img src="./assets/image-1.png">
-            <p>Welcome to my Galactica portfilio, this is a work in progress.</p>
-            <br/>
-        </section>
-
-        <!-- <section>
-            <div>
-                <p>
-                    COMING SOON
-                </p>
-            </div>
-        </section> -->
-
-        <section class="contact-me">
-            <h3>Contact Me</h3>
-            <br/>
-            <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form -->
-            <form action="./assets" method="post" class="form">
-                <label class="form-input-field">
-                    Name:
-                    <input name="submitted-name" autocomplete="name" />
-                </label>
-                <label class="form-input-field">
-                    Email:
-                    <input name="submitted-name" autocomplete="name" />
-                </label>
-                    <button id="form-button">SEND</button>
-            </form>
-        </section>
-
-        <footer class="copyright">
-            <p>© 2024 Jake Magri</p>
-        </footer>
-        <div class="bottom-whitespace">
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galactical Portfolio</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body>
+    <header>
+        <h1>Jake Magri</h1>
+        <nav>
+            <a href="#about-me">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#contact-me">Contact Me</a>
+        </nav>
+    </header>
+    
+    <section class="hero-banner">
+        <div>
+            <h2>Cool quote goes here!</h2>
         </div>
+    </section>
 
-    </body>
+    <main class="page-wrapper">
+        <section id="about-me" class="page-section">
+            <h2>About Me</h2>
+            <div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus delectus quidem facere eaque? Dicta quam beatae soluta atque quod ducimus perferendis voluptas corrupti blanditiis nihil nostrum ullam libero deleniti consequatur, officia suscipit rerum accusantium similique error quos numquam odio! Laboriosam illo enim inventore tenetur blanditiis ratione facilis maiores vel dolorem!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione natus voluptas ducimus modi cum dolores beatae totam! Velit id fugiat pariatur perferendis aut, expedita nihil? Repellendus quod quos incidunt voluptatum laborum dolores ad placeat officiis ab vero, dolorum pariatur expedita velit tempora laboriosam amet a? Aut cumque ad atque tenetur?</p>
+            </div>
+        </section>
+
+        <section id="work" class="page-section">
+            <h2>Work</h2>
+            <div class="flex-container">
+                <a href="./form.html" class="flex-item form-page">
+                    <div>
+                        <h3>Form Page</h3>
+                        <span>A simple form page practicing CSS.</span>
+                    </div>
+                </a>
+                <a href="#" class="flex-item led-wall">
+                    <div>
+                        <h3>LED Wall</h3>
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </div>
+                </a>
+                <a href="#" class="flex-item react-calc">
+                    <div>
+                        <h3>Calculator</h3>
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </div>
+                </a>
+                <a href="#" class="flex-item pastel-puzzles">
+                    <div>
+                        <h3>Pastel Puzzles</h3>
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </div>
+                </a>
+                <a href="#" class="flex-item run-buddy">
+                    <div>
+                        <h3>Run Buddy</h3>
+                        <span>Lorem ipsum dolor sit amet.</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section id="contact-me" class="page-section contact">
+            <h2>Contact Me</h2>
+            <div>
+                <address>
+                    <a href="tel:+11234567890">123.456.7890</a>
+                    <a href="mailto:jake@magri.com">jake@magri.com</a>
+                    <a href="https://github.com">GitHub</a>
+                    <a href="https://twitter.com">Twitter</a>
+                    <a href="https://spotify.com">Spotify</a>
+                </address>
+            </div>
+        </section>
+    </main>
+</body>
 </html>
